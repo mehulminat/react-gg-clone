@@ -39,13 +39,16 @@
 }
 
 .final .img {
-  position: absolute;
+  position: relative;
   width: 278px;
   height: 278px;
   top: 675px;
   left: 582px;
 }
-
+.final .img:hover{
+  transition: 0.5s all ease;
+  transform: scale(0.8) rotate(25deg);
+}
 .final .star-2 {
   position: absolute;
   width: 150px;
@@ -935,14 +938,18 @@
 }
 
 .final .rectangle-31 {
-  position: absolute;
+  position: relative;
   width: 149px;
   height: 48px;
-  top: 0;
-  left: 0;
+ 
   background-color: #f8f4df;
   border: 1px solid;
   border-color: #000000;
+}
+.final .rectangle-31:hover{
+  top: 4px;
+  left: 4px;
+  cursor: pointer;
 }
 
 .final .text-wrapper-8 {
@@ -1458,4 +1465,12 @@
 
 .final .text-wrapper-20 {
   font-size: 16px;
+}
+.heading-dark-section{
+  font-family: "Roboto Mono", Helvetica;
+  font-weight: 700;
+  color: #fff3d6;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 56.9px;
 }

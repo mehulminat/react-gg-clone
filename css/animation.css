@@ -1,0 +1,24 @@
+/* 
+Animation Styling For Elements
+1. Apply Nowe BUtton 
+2. Hero Section Star
+
+*/
+
+/* Header Apply Now button */
+.button-base-extrude :hover{
+    transition: 0.3s all ease;
+    transform: translateX(4px),translateY(4px);
+}
+.button-base-extrude{
+    transition: all ease 0.5s;
+    top: 0;
+    left: 0;
+    
+}
+
+/* Hero Section Star */
+.her0-section-stAr :hover{
+transition: 0.5s all ease;
+transform: scale(0.8) rotate(25deg);
+}
