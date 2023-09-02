@@ -1,31 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 html,
 body {
-  height: 100%;
-  background-color: #f8f4df!Important;
+    height: 100%;
+    background-color: #f8f4df !Important;
+    overflow-x: hidden;
 }
 
-main{
+main {
     border: solid 0.0625rem black;
 }
-.container-fluid{
-    width:85%!important;
+
+.container-fluid {
+    width: 85% !important;
     /* margin-left:2%!important ;
     margin-right: 2%!important ; */
-    
+
 }
-.hero{
-    background-image: url("img/Finetune GG - DEV-2/home bg.png");
+
+.apply-button-home {
+    /* alignment */
+    right: 4px;
+    position: absolute;
+    margin: 1rem;
+    float: right;
+
+}
+
+.apply-button {
+    background-color: #f8f4df !Important;
+    border: 0.0625rem solid black;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
+    transition: 0.3s all ease;
+
+}
+
+.apply-button:hover {
+
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
+
+}
+
+.apply-button .apply-button-text {
+
+
+    padding: 0;
+    color: #000;
+    text-align: center;
+    font-family: Roboto Mono;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.large-button {
+    padding: 10px 100px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+}
+
+.home-text {
+    color: #323232;
+    text-align: center;
+    font-family: Inter;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.image-block {
+    border: 0.0625rem solid black;
+    padding: 10px 10px;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
+    transition: 0.3s all ease;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+
+.image-block:hover {
+
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
+
+}
+.image-block-2 {
+    border: 0.0625rem solid black;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 1);
+    transition: 0.3s all ease;
+    width: fit-content;
+}
+
+
+.image-block-2:hover {
+
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
+
+}
+
+.email {
+    border: 0.0625rem solid black;
+    padding: 10px 10px;
+    background-color: #000;
+    color: #f8f4df;
+    width: fit-content;
+}
+
+.email-input{
+    border: 0.0625rem solid #f8f4df;
+    height: 80px;
+    width: 80%;
+    margin-top: 50px;
+    padding: 10px 10px;
+    background-color: #000;
+    color: #f8f4df;
+}
+
+.input-email button{
+    height: 80px;
+    width: 18%;
+}
+
+.box{
+    border: 0.0625rem solid black;
+    background-color: #f8f4df;
+    padding: 10px 10px;
+    width: fit-content;
+}
+
+.tilt-effect {
+    transform: rotate(-25.882deg);
+    position: absolute;
+
+    bottom: 5%;
+    right: -20%;
+}
+
+.tilt-button {
+    /* position: fixed; */
+    /* width: 13.80925rem; */
+    width: 14rem;
+    border: 0.0625rem solid black;
+    transition: 0.3s all ease;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
+
+}
+
+.tilt-button:hover {
+    /* position: fixed; */
+    border: 0.0625rem solid rgba(0, 0, 0, 0);
+
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
+
+}
+
+.tilt-button-text {
+
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.sectional-heading{
+    margin-top: 5.5rem;
+    margin-bottom: 5.5rem;
+
+}
+/* @media only screen and (max-width: 600px) {
+    .container-fluid {
+        width: 85% !important;
+    
+    }
+  } */
+
+.hero {
+    /* background-image: url("img/Finetune GG - DEV-2/home bg.png"); */
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     border-top: solid 0.0625rem black;
     align-content: center;
     justify-content: center;
     text-align: center;
 }
-.main-heading{
+
+.main-heading {
     font-family: "Roboto Mono", Helvetica;
     font-weight: 700;
     color: #000000;
@@ -36,12 +205,124 @@ main{
     margin-top: 10%;
     margin-bottom: 10%;
 }
-p{
-    font-family: "Inter", Helvetica;
+
+.mid-font {
+    color: #000;
+    font-family: 'Inter';
+    font-size: 2.25rem;
+    font-style: normal;
     font-weight: 500;
-    color: #313131;
-    font-size: 35px;
+    line-height: normal;
+}
+
+/* Hero Section Star */
+.star {
+    /* background-image: url("img/home-section/home-star.svg");
+    background-repeat: no-repeat; */
+    height: 300px;
+}
+
+.her0-section-stAr:hover {
+    transition: 0.5s all ease;
+    transform: scale(0.8);
+}
+.mobile-track{
+    display: none;
+}
+.left-top-home {
+    position: absolute;
+    width: 15%;
+    left: 0;
+    top: 0;
+}
+
+.right-top-home {
+    position: absolute;
+    width: 15%;
+    right: 0;
+    top: 0;
+}
+
+.left-grid {
+    position: absolute;
+    width: 30%;
+    left: 0;
+    bottom: 0;
+}
+
+.right-grid {
+    position: absolute;
+    width: 30%;
+    right: 0;
+    bottom: 0;
+}
+
+.left-grid-bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.right-grid-bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.black-box {
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box-content {
+    color: #F8F4DF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+}
+
+
+
+
+/*Road section*/
+.road-section {
+    /* margin-top:20%!important; */
+    margin-bottom: 60vh !important;
+}
+
+.shipping{
+    background-color: #000;
+    color:#f8f4df !Important;
+}
+.heading{
+    font-family: "Roboto Mono", Helvetica;
+    font-weight: 700;
+    color: #fff3d6;
+    font-size: 64px;
     text-align: center;
     letter-spacing: 0;
+    line-height: 56.9px;
+}
+.card{
+    background-color: transparent!important;
+}
+.join-content{
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
     line-height: normal;
+}
+
+.footer{
+    background-image: url("img/bottom/litio-bg.svg");
+    background-size: cover;
 }

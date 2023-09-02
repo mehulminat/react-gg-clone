@@ -1,0 +1,120 @@
+@media (max-width: 600px) {
+    .sectional-heading {
+        font-size: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .join-content {
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        line-height: normal;
+    }
+
+    .container-fluid {
+        width: 100% !important;
+
+    }
+
+    .left-top-home {
+        width: 100px;
+    }
+
+    .right-top-home {
+        width: 100px;
+    }
+
+    .left-grid {
+        width: 150px;
+    }
+
+    .right-grid {
+        width: 150px;
+    }
+
+    .left-grid-bottom {
+        width: 150px;
+    }
+
+    .right-grid-bottom {
+        width: 150px;
+    }
+
+    .main-heading {
+        font-family: "Roboto Mono", Helvetica;
+        font-weight: 700;
+        color: #000000;
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 43.554px;
+        margin-top: 70%;
+        margin-bottom: 10%;
+    }
+
+    .home-text {
+        font-size: 20.069px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 124.523%;
+    }
+
+
+
+    .mid-font {
+        font-size: 19.857px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .image-block img {
+        width: 100%;
+    }
+
+    .track {
+        background-image: none !important;
+    }
+
+    .mobile-track {
+        display: block;
+        position: relative;
+        left: -30px;
+    }
+
+    .road-section {
+        margin-bottom: 0px !important;
+    }
+
+    .track .col-md-12 .row {
+        padding-top: 10px !important;
+        margin-top: 0px !important;
+        margin-right: 20px !important;
+        margin-left: 20px !important;
+    }
+
+    #box-1 {
+        margin-top: 20px !important;
+    }
+
+    #faq>.card {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .faq-card-head{
+        font-size: 1.5rem;
+    }.faq-card-head-content{
+        font-size: 1rem;
+    }
+    .input-email input{
+        width: 100%;
+    }
+    .input-email button{
+        margin-top: 10px;
+        width: 50%;
+    }
+    .email-bar{
+        margin-bottom: 100px!important;
+    }
+}
